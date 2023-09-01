@@ -1,5 +1,11 @@
 ### Shell-Script
-I am learning shell and Git
-I am doing another change
-I can do changes any number of times
-Developing is completed
+
+Software to install
+* VS Code
+* Git Bash
+
+![alt text](shell-env.jpg)
+
+Coding is 2 types
+1. Programming
+2. Scripting
