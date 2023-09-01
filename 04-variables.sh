@@ -4,7 +4,8 @@
 
 NUMBER1=$1
 NUMBER2=$2
+NUMBER3=$3
 # I need to run a command inside shell to add these 2 numbers
-SUM=$((NUMBER1+NUMBER2))
+SUM=$((NUMBER1+NUMBER2+NUMBER3))
 
-echo "Addition of 2 numbers is:$SUM"
+echo "Addition of 2 numbers is: $SUM"
