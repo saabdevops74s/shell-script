@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Variable declaring inside script methodology
+
 echo "Hello world, I am learning DevOps with AWS"
 PERSON1=Sachin
 PERSON2=Rohit
