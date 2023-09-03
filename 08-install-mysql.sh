@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # our program goal is to install mysql
+
 USERID=$(id -u)
 
 if [ $USERID -ne 0 ]
@@ -11,4 +12,5 @@ then
 #     echo "Info: You are root user"
 fi
 
+# it is our responsibility again to check installation is success or not
 yum install git -y
