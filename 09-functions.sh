@@ -3,6 +3,8 @@
 # our program goal is to install mysql
 
 USERID=$(id -u)
+
+# this function should validate the previous command and inform user it is success or failure
 VALIDATE(){
     if [ $1 -ne 0 ]
     then
