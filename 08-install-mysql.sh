@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # our program goal is to install mysql
-USER=$(id -u)
+USERID=$(id -u)
 
-if [ $USER -ne 0 ]
+if [ $USERID -ne 0 ]
 then
    echo "Error: Please run this script with root access"
 else
